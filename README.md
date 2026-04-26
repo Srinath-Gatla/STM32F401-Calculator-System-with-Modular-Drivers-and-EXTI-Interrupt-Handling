@@ -60,13 +60,19 @@ This project implements a **basic calculator** using the **STM32F401 microcontro
 ---
 
 ## 🧠 Project Structure
-├── main.c
-├── STM32F401_GPIO.h / .c
-├── STM32F401_LCD.h / .c
-├── STM32F401_KEYPAD.h / .c
+```bash
+.
+├── Core
+│   └── main.c
+├── Drivers
+│   ├── STM32F401_GPIO.c
+│   ├── STM32F401_GPIO.h
+│   ├── STM32F401_LCD.c
+│   ├── STM32F401_LCD.h
+│   ├── STM32F401_KEYPAD.c
+│   └── STM32F401_KEYPAD.
 
-
----
+```
 
 ## ⚙️ How It Works
 
@@ -158,26 +164,26 @@ void EXTI0_IRQHandler(void)
 }
 ```
 ---
-🏗️ Build & Flash
-Open project in STM32CubeIDE / Keil / any ARM IDE
-Compile the code
-Flash to STM32F401 board
-Power up and test using keypad
+### 🏗️ Build & Flash
+- Open project in STM32CubeIDE / Keil / any ARM IDE
+- Compile the code
+- Flash to STM32F401 board
+- Power up and test using keypad
 ---
 
-📌 Future Improvements
-Floating-point calculation support
-Negative number handling
-Operator precedence (e.g., 2+3*4)
-Timer-based debouncing
-LCD cursor enhancements
+### 📌 Future Improvements
+- Floating-point calculation support
+- Negative number handling
+- Operator precedence (e.g., 2+3*4)
+- Timer-based debouncing
+- LCD cursor enhancements
 
 ---
 
-👨‍💻 Author
-SD (Self-driven Embedded Developer)
-Focused on Embedded Systems and Drone Development
+### 👨‍💻 Author
+- SD (Self-driven Embedded Developer)
+- Focused on Embedded Systems and Drone Development
 
-📄 License
+### 📄 License
 
-This project is open-source and free to use for learning and development purposes.
+- This project is open-source and free to use for learning and development purposes.

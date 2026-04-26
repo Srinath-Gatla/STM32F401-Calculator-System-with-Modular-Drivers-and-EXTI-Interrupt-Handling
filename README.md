@@ -184,6 +184,8 @@ void EXTI0_IRQHandler(void)
 - SD (Self-driven Embedded Developer)
 - Focused on Embedded Systems and Drone Development
 
+---
+
 ### 📄 License
 
 - This project is open-source and free to use for learning and development purposes.

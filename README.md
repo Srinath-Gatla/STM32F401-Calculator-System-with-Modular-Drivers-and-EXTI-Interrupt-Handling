@@ -107,10 +107,11 @@ This project implements a **basic calculator** using the **STM32F401 microcontro
 
 ## 🔄 Keypad Layout
 
-7 8 9 /
-4 5 6 *
-1 2 3 -
-c 0 = +
+| 7 | 8 | 9 | / |
+|---|---|---|---|
+| 4 | 5 | 6 | * |
+| 1 | 2 | 3 | - |
+| c | 0 | = | + |
 
 
 ---
@@ -155,20 +156,25 @@ void EXTI0_IRQHandler(void)
   GPIO_IRQHandle(0);
   backspace_flag = 1;
 }
-
+```
+---
 🏗️ Build & Flash
 Open project in STM32CubeIDE / Keil / any ARM IDE
 Compile the code
 Flash to STM32F401 board
 Power up and test using keypad
+---
+
 📌 Future Improvements
 Floating-point calculation support
 Negative number handling
 Operator precedence (e.g., 2+3*4)
 Timer-based debouncing
 LCD cursor enhancements
-👨‍💻 Author
 
+---
+
+👨‍💻 Author
 SD (Self-driven Embedded Developer)
 Focused on Embedded Systems and Drone Development
 
